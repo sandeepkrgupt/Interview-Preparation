@@ -1,0 +1,10 @@
+Interview Questions:
+React:
+1.	How to render react components differently on diff. OS (let say need to show hide)
+2.	React DOM Manipulation?
+3.	what will output if we call multiple ReactDOM.render(), we call another render inside setTimeout in a render method?
+4.	what will be the output if we use multiple return in one render?
+5.	How to authenticate in React?
+6.	React 16.8 converting class components to functional components?
+7.	What is redux thunk?
+8.	What is hook in react? List all new react hooks.
