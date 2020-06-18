@@ -1,0 +1,29 @@
+Faced Question Javascript:-
+1.what is set method used in javascript ?
+2.how to return random item from Array?
+3.what is event.delegate in javascript ?
+4.Is javacript loosily type or stirct type?
+5.Features of using Javascript?
+6.What is cross domain Error ?
+7.what are HTTP Headers used for ?
+8. Can we do inheritance in es5 ?
+9. Call Vs Apply Vs Bind? (Ans:https://medium.com/@leonardobrunolima/javascript-tips-apply-vs-call-vs-bind-d738a9e8b4e1)
+10.Javascript Bind Vs Arrow Function.
+11. what is Object.Keys ?
+12. diff. b/w normal func. and arrow func. ?
+13.what is Object.assign used for ?
+14.Simple Closure Example?
+15.write a program to square array elements.?
+16.Does map() function need a return statement ?
+17.Difference b/w map() each and forEach() ?
+18.what is functional programming ? is js a functional programming language ?
+19. Difference b/w Object based and object Oriented?
+Ans -
+Difference between Object-oriented and Object-based languages. 
+Object-oriented language supports all the features of OOPs 
+(Abstraction, Encapsulation, Inheritance, Polymorphism). 
+Object-based languages don't 
+support all the features of OOPs like polymorphism or inheritance. 
+20.Object.keys Vs Object.values Vs Object.entries Vs Object.defineProperty
+21.Object.freze Vs Object.seel
+21.
