@@ -26,4 +26,34 @@ Object-based languages don't
 support all the features of OOPs like polymorphism or inheritance. 
 20.Object.keys Vs Object.values Vs Object.entries Vs Object.defineProperty
 21.Object.freze Vs Object.seel
-21.
+21.what is async await used for ?
+22.we can get array items despite setTimeout is zero?
+23.string to array conversion?
+24.converting object to array? (Map always return object as an array)
+25.converting array to object ?
+26.check an array for null or undefined values?
+27.checking for empty array?
+28.checking duplicate value in array -
+1st way:
+let array1 = [5,6,7,8,13,8,6];
+function dublicateFunction(arg) { 
+	return arg.filter((item,i) => arg.indexOf(arg[i]) !== i);
+}
+console.log(dublicateFunction(array1));// [8,6]
+29. difference between let and var?
+30.what will be the output of below -
+function sum(a,b) {
+	console.log(a+b);
+}
+
+sum(2+4+"4"+1+2,5+8+null+"1+3"); //  "6412131+3"
+----
+console.log(6+4 + "4" + 9+9+2+'ert'+5); // "104992ert5"
+----
+console.log(6+4 + "4" + 9+9+2+'ert'+5 -3); // "NAN"
+----
+console.log(6+4 + "4" + 9+9+2+"2"+5); //"10499225"
+29.closures?
+30.datatype in js?
+31.How to check palindrome string
+32.How to convert Array elements into string ?
