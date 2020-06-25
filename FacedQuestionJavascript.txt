@@ -1,4 +1,5 @@
 Faced Question Javascript:-
+0.ES6 All new Features?
 1.what is set method used in javascript ?
 2.how to return random item from Array?
 3.what is event.delegate in javascript ?
@@ -57,3 +58,35 @@ console.log(6+4 + "4" + 9+9+2+"2"+5); //"10499225"
 30.datatype in js?
 31.How to check palindrome string
 32.How to convert Array elements into string ?
+33.If you want to call a function inside another function
+34.For loop with var and let
+console.log(i)
+for(i=0;i<=5;i++){
+console.log(i)
+}
+console.log(i);
+35.types of Ajex call? Fetch vs axios vs async await?
+36.Higher Order functions in JS?
+37.Event Bubbling in JS?
+38.Compare two array in JS?
+39.What types of errors we get in browser when do api call or ajex call.
+40.How to convert string to integer not using parseint?
+41.function add(a, b = 1) {
+   return a + b;
+}
+var res = add(4,5);
+console.log(res); // 9
+42.how to store data in local storage, get and set items?
+43.var foo = 'bar'
+var baz = { foo }
+console.log(baz.foo)
+The following output is displayed on successful execution of the above code.
+bar
+43.Js delete existing object property?
+Ans-
+var Object = {name: "san", age:21}
+delete Object;
+console.log(Object) // Object { name: "san", age: 21 }
+delete Object.name
+console.log(Objct); // Object { age: 21 }
+44.
