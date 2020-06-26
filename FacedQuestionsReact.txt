@@ -8,3 +8,7 @@ React:
 6.	React 16.8 converting class components to functional components?
 7.	What is redux thunk?
 8.	What is hook in react? List all new react hooks.
+9. Passing data from child to parent?
+10. How to navigate back to previous page without using browser back button?
+11. If you see some errors in your jsx inner tag how can you get that?
+12. How can we use jquery in react?
