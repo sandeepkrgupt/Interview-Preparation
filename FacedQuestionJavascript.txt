@@ -1,5 +1,34 @@
 Faced Question Javascript:-
 0.ES6 All new Features?
+Ans -
+I. Classes
+II. Enhanced Object Literals
+III. Template Strings
+IV. Destructuring
+V. Default + Rest + Spread :
+=>
+Rest parameters are similar to variable arguments in Java. 
+Rest parameters doesn’t restrict the number of
+values that you can pass to a function. However, the values passed must all be of the same type. In other words,
+rest parameters act as placeholders for multiple arguments of the same type.
+The following example illustrates the same.
+function fun1(...params) {
+   console.log(params.length);
+}
+fun1();
+fun1(5);
+fun1(5, 6, 7);
+The following output is displayed on successful execution of the above code.
+0
+1
+3
+VI. Let + Const
+VII. Iterators + For..Of
+VIII. Generators
+IX. Modules
+X. Module Loaders
+
+--------------------------------------------------------
 1.what is set method used in javascript ?
 2.how to return random item from Array?
 3.what is event.delegate in javascript ?
@@ -148,3 +177,18 @@ obj.doPrint()
 //output
 doPrint() from Parent called.
 doPrint() is printing a string.
+50. Hoisting in JS?
+Ans -
+function hoisting:-
+hoist_function();
+function hoist_function() {
+   console.log("foo");
+}
+The following output is displayed on successful execution of the above code.
+foo
+However, function expressions cannot be hoisted. The following code snippet illustrates the same.
+hoist_function(); // TypeError: hoist_function() is not a function
+var hoist_function() = function() {   
+console.log("bar");
+};
+51.
