@@ -34,4 +34,22 @@ ReactDOM.render(<App/>, document.getElementById('app')); // Morning
 10. If you see some errors in your jsx inner tag how can you get that?
 11. How can we use jquery in react?
 12. What is pure component? When to use them?
-13.
+13. What is react ref used for? Drawback of using react refs?
+---------------------------------------------------------------------
+14.what is controlled and uncontrolled components in react?
+Ans -
+Difference b/w controlled and un-controlled component
+controlled
+1. Instant field validation
+2. conditionally disabling submit/any button
+3. In forcing input format is possible
+4. It can have several input for one piece of data.
+5. it can have dynamic data.
+un-controlled can have above features.
+---------------------------------------------------------------------
+15. React Main life cycle methods?
+Ans -
+1. Mounting: At this phase, A component is created and inserted to the DOM.
+2. updating: A react component get changes in props and update the changed props in the DOM.
+3. unMounting: Final Phase. remove events after dom is completed or page is closed.
+4. Error Handling: Handing errors inside react component hirarchy.(Multiple childream).
