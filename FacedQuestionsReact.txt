@@ -28,9 +28,10 @@ ReactDOM.render(<App/>, document.getElementById('app')); // Morning
 4. what will be the output if we use multiple return in one render?
 5. How to authenticate in React?
 6. React 16.8 converting class components to functional components?
-7. What is redux thunk?
-8. What is hook in react? List all new react hooks.
-9. Passing data from child to parent?
-10. How to navigate back to previous page without using browser back button?
-11. If you see some errors in your jsx inner tag how can you get that?
-12. How can we use jquery in react?
+7. What is hook in react? List all new react hooks.
+8. Passing data from child to parent?
+9. How to navigate back to previous page without using browser back button?
+10. If you see some errors in your jsx inner tag how can you get that?
+11. How can we use jquery in react?
+12. What is pure component? When to use them?
+13.
