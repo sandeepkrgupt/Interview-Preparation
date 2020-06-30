@@ -1,2 +1,19 @@
-HTML Interview Questions -----------
+--------HTML Interview Questions -----------
 1. How can we get our current location using html5 geolocation?
+----------------------------------------------
+2. What is cross domain Error ?
+Ans - Cross domain or origin is a machenism that allow restricted web resource or domain to be requested from another domain.
+Cross domain error occurs when -
+i. Js try to access info. which it should not Like -
+  you try to read cookie of another domain.
+  if you try to do XMLHTTP hijeck, steal visitor session etc.
+It is a securiety feature which is now standered in all browsers.
+-------------------------------------------------
+3. what are HTTP Headers used for ?
+Ans - They provide required info. about request and response.
+-------------------------------------------------
+4. Diff display inline and block ?
+Ans -
+the major difference is that display: inline-block allows to set a width and height on the element. 
+Also, with display: inline-block , the top and bottom margins/paddings
+-------------------------------------------------
