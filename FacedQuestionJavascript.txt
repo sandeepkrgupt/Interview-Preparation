@@ -118,32 +118,8 @@ delete Object;
 console.log(Object) // Object { name: "san", age: 21 }
 delete Object.name
 console.log(Objct); // Object { age: 21 }
-44.filter()
-Creates a new array with all of the elements of this array for which the provided filtering function returns true.
-forEach()
-Calls a function for each element in the array.
-join()
-Joins all elements of an array into a string.
-pop()
-Removes the last element from an array and returns that element
-push()
-Adds one or more elements to the end of an array and returns the new length of the array.
-reverse()
-Reverses the order of the elements of an array -- the first becomes the last, and the last becomes the first.
-shift()
-Removes the first element from an array and returns that element slice.
-slice()
-Extracts a section of an array and returns a new array.
-sort()
-Sorts the elements of an array.
-splice()
-Adds and/or removes elements from an array.
-unshift()
-Adds one or more elements to the front of an array and returns the new length of the array.
-find()
-every()
 
-45.The get() function is used to retrieve the value corresponding to the specified key.
+44.The get() function is used to retrieve the value corresponding to the specified key.
 
 var roles = new Map([
 
@@ -156,7 +132,7 @@ var roles = new Map([
 ]);
 
 console.log(roles.get('r2')) //output Guest
-46.The Super Keyword
+45.The Super Keyword
 ES6 enables a child class to invoke its parent class data member. This is achieved by using the super keyword.
 The super keyword is used to refer to the immediate parent of a class.
 'use strict'
@@ -177,7 +153,7 @@ obj.doPrint()
 //output
 doPrint() from Parent called.
 doPrint() is printing a string.
-50. Hoisting in JS?
+46. Hoisting in JS?
 Ans -
 function hoisting:-
 hoist_function();
@@ -191,4 +167,4 @@ hoist_function(); // TypeError: hoist_function() is not a function
 var hoist_function() = function() {   
 console.log("bar");
 };
-51. How can we handle content display according to devices like iPhone or Android etc?
+47. How can we handle content display according to devices like iPhone or Android etc?
