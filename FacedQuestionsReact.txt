@@ -53,3 +53,4 @@ Ans -
 2. updating: A react component get changes in props and update the changed props in the DOM.
 3. unMounting: Final Phase. remove events after dom is completed or page is closed.
 4. Error Handling: Handing errors inside react component hirarchy.(Multiple childream).
+5. Which life cycle methods are depricated and which new are indroduced?
