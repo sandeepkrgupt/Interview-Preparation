@@ -65,7 +65,27 @@ export const useAuth = auth => {
 }
 ---------------------
 6. React 16.8 converting class components to functional components?
-7. What is hook in react? List all new react hooks.
+Ans-
+For react 15.x versions, To convert we need to use some libraries like "recompose".
+Also if we want to use HOC we need to use recompose method like -. 
+
+For 26.x we can use useState().
+------------------
+7. What is hook in react? 
+Ans-
+Hooks are functions that let you “hook into” React state and lifecycle features from function components.
+Hooks don’t work inside classes — they let you use React without classes. 
+=)) Why to use hooks
+We don’t recommend rewriting your existing components overnight 
+but you can start using Hooks in the new ones if you’d like.
+=)) 
+Can we create our own hook?
+You can also create your own Hooks to reuse stateful behavior between different components
+1. useState() 
+2. useEffect() 
+3. useContext() 
+4. 
+--------------------
 8. Passing data from child to parent?
 9. How to navigate back to previous page without using browser back button?
 10. If you see some errors in your jsx inner tag how can you get that?
