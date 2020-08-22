@@ -1,6 +1,7 @@
 Interview Questions:
 React:
 1. How to render react components differently on diff. OS (let say need to show hide)
+-------------------
 2. React DOM Manipulation?
 ------------------------------------------
 3. . what will output if we call multiple ReactDOM.render(), we call another render inside setTimeout in a render method?
