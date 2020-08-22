@@ -84,9 +84,24 @@ You can also create your own Hooks to reuse stateful behavior between different 
 1. useState() 
 2. useEffect() 
 3. useContext() 
-4. 
+4. useRef() 
+5. useMemo() 
 --------------------
 8. Passing data from child to parent?
+Ans-
+In parent class :-
+getData(val){
+    // do not forget to bind getData in constructor
+    console.log(val);
+}
+render(){
+ return(<Child sendData={this.getData}/>);
+}
+In child class :-
+demoMethod(){
+   this.props.sendData(value);
+Also you can use redux to handle your actions and manage state. 
+ - - - - - - - - - - - - - - - - - 
 9. How to navigate back to previous page without using browser back button?
 10. If you see some errors in your jsx inner tag how can you get that?
 11. How can we use jquery in react?
