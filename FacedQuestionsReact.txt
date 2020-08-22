@@ -25,7 +25,17 @@ class App extends React.Component {
 }
 ReactDOM.render(<App/>, document.getElementById('app')); // Morning
 -----------------------------------------------------------------
-4. what will be the output if we use multiple return in one render?
+4. what will be the output if we use multiple return in one render? 
+Ans-
+class App extends React.Component {
+  render() {
+    return (<div>Morning</div>)
+    return (<div>Evening</div>)
+  }
+}
+ReactDOM.render(<App/>, document.getElementById('app')); // Morning
+
+--------------------
 5. How to authenticate in React?
 Ans - 
 You can use Json Web token or OKTA to add authentication as below. 
