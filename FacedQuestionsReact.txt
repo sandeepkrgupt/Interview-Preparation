@@ -104,6 +104,44 @@ Also you can use redux to handle your actions and manage state.
  - - - - - - - - - - - - - - - - - 
 9. How to navigate back to previous page without using browser back button?
 10. If you see some errors in your jsx inner tag how can you get that?
+Ans-
+Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, 
+log those errors, and display a fallback UI
+=)) Note
+Error boundaries do not catch errors for:
+Event handlers (learn more)
+Asynchronous code (e.g. setTimeout or requestAnimationFrame callbacks)
+Server side rendering. 
+Example - 
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  static getDerivedStateFromError(error) {
+    // Update state so the next render will show the fallback UI.
+    return { hasError: true };
+  }
+
+  componentDidCatch(error, errorInfo) {
+    // You can also log the error to an error reporting service
+    logErrorToMyService(error, errorInfo);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      // You can render any custom fallback UI
+      return <h1>Something went wrong.</h1>;
+    }
+
+    return this.props.children; 
+  }
+}
+<ErrorBoundary>
+  <MyWidget />
+</ErrorBoundary>
+-----------------------------
 11. How can we use jquery in react?
 12. What is pure component? When to use them?
 13. What is react ref used for? Drawback of using react refs?
