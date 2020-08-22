@@ -27,6 +27,33 @@ ReactDOM.render(<App/>, document.getElementById('app')); // Morning
 -----------------------------------------------------------------
 4. what will be the output if we use multiple return in one render?
 5. How to authenticate in React?
+Ans - 
+You can use Json Web token or OKTA to add authentication as below. 
+import { useState, useEffect } from 'react';
+
+export const useAuth = auth => {
+  const [authenticated, setAuthenticated] = useState(null);
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    auth.isAuthenticated().then(isAuthenticated => {
+      if (isAuthenticated !== authenticated) {
+        setAuthenticated(isAuthenticated);
+      }
+    });
+  });
+
+  useEffect(() => {
+    if (authenticated) {
+      auth.getUser().then(setUser);
+    } else {
+      setUser(null);
+    }
+  }, [authenticated]);
+
+  return [authenticated, user];
+}
+---------------------
 6. React 16.8 converting class components to functional components?
 7. What is hook in react? List all new react hooks.
 8. Passing data from child to parent?
