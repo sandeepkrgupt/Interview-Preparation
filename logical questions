@@ -1,0 +1,20 @@
+1.
+var b = 1 or b=1;
+function outer(){
+   	var b = 2
+    console.log(b)
+    function inner(){
+      console.log(b)
+        b++;
+        var b = 3;
+        console.log(b)
+    }
+    inner();
+}
+outer();
+console.log(b)
+output:-
+> 2
+> undefined
+> 3
+> 1
